@@ -23,8 +23,7 @@ public class TestUtil extends TestBase {
 	static Sheet sheet;
 	static JavascriptExecutor js;
 
-	private static String TEST_DATA_SHEET_PATH = "E:\\Automation\\CrmMyTest\\src\\main\\java\\com\\crm\\qa\\testdata"
-			+ "\\FreemyCrmTestData.xlsx";
+	private static String TEST_DATA_SHEET_PATH = "C:\\Users\\Bhisma\\git\\repository2\\CrmMyTest\\src\\main\\java\\com\\crm\\qa\\testdata\\FreemyCrmTestData.xlsx";
 
 	public static Object[][] getTestData(String sheetName) throws InvalidFormatException {
 

@@ -26,8 +26,7 @@ public class TestBase {
 		try {
 			
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("E:\\Automation\\CrmMyTest\\src\\main\\java\\com\\crm\\qa"
-					+ "\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("C:\\Users\\Bhisma\\git\\repository2\\CrmMyTest\\src\\main\\java\\com\\crm\\qa\\config\\config.properties");
 			prop.load(ip);
 //			System.out.println(prop.getProperty("browser"));
 		}
